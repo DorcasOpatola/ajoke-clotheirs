@@ -3,3 +3,14 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+
+.navTop {
+    background-color: #F8F2ED;
+
+}
+.navBottom {
+    background-color: #282329;
+    color: #FFFFFF;
+    
+}
