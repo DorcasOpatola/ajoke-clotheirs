@@ -91,3 +91,38 @@ hr {
     background-color: #F0F0F0;
     border: none;
 }
+
+/* MAIN CONTENT STYLES */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    background-color: #D96971;
+    border-radius: 10px;
+    color: #F8F2ED;
+    cursor: pointer;
+}
+
+header p:hover {
+    color: #000000;
+    font-style: oblique;
+    font-weight: 1000;
+}
+.designs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px;
+    background-color: #F8F2ED;
+    border-radius: 10px;
+    color: #282329;
+    cursor: pointer;
+}
+
+.designs-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px;
+}
