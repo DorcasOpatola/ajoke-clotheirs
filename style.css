@@ -85,7 +85,6 @@ h3 {
     cursor: pointer;
     font-weight: 50;
 }
-
 hr {
     height: 8px;
     background-color: #F0F0F0;
@@ -101,14 +100,14 @@ header {
     background-color: #D96971;
     border-radius: 10px;
     color: #F8F2ED;
+}
+header p:hover {
+    color: #553327;
+    font-weight: 700;
     cursor: pointer;
 }
 
-header p:hover {
-    color: #000000;
-    font-style: oblique;
-    font-weight: 1000;
-}
+/* SECTION CONTENT STYLES */
 .designs {
     display: flex;
     justify-content: space-around;
@@ -119,10 +118,43 @@ header p:hover {
     color: #282329;
     cursor: pointer;
 }
-
 .designs-img {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0px 30px;
+}
+.designs-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.designs-img p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.designs-img button {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    background-color: #D96971;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #D96971;
+    padding: 10px 20px;
+}
+.designs-img button:hover {
+    color: #D96971;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #553327;
+}
+.designs-img h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.designs-img h3:hover {
+    color: #D96971;
 }
