@@ -94,14 +94,16 @@ hr {
 /* MAIN CONTENT STYLES */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0px 30px;
     background-color: #D96971;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     color: #F8F2ED;
-    font-size: 20px;
+    font-size: 16px;
+}
+header p {
+    margin: 10px 20px;
 }
 header p:hover {
     color: #553327;
