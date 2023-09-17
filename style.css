@@ -7,10 +7,10 @@ body {
 /* TOP AND BOTTOM NAVIGATION BAR STYLES*/
 .navTop {
     background-color: #F8F2ED;
-    padding: 0px 30px;
+    padding: 0px 20px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 /*  To adjust the style of the input field*/
 .search {
@@ -43,7 +43,7 @@ body {
     display: flex;
     align-items: center;
 }
-a {
+.navBar-link {
     font-size: 20px;
     font-weight: 400;
     margin-left: 20px;
@@ -56,12 +56,16 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    text-transform: uppercase;
     text-decoration: none;
     color: #D96971;
 }
-img .navBar-cart {
-    padding: 60px;
+.navBar-cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 .navBottom {
     background-color: #282329;
